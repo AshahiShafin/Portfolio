@@ -1,0 +1,81 @@
+@charset "UTF-8";
+html {background-color:rgb(50,250,255);
+	}
+body {
+	background-color:rgb(51,204,255);
+	
+	/* I like the color red for the background */
+
+}
+div {
+	background-color: #000000;
+	font-family: Stencil;
+	font-size: 30pt;
+}
+
+#1 {
+	background-color: rgb(255,255,255);
+	font-family: Stencil;
+	font-size: 25pt;
+}
+
+h1 {
+	color: #FFF;
+	text-align: center; /* so you can see the color */
+	height: 107px;
+	width: 442px;
+	height: 53pt;
+	width: 350pt;
+	text-shadow: 2px 2px 5px red;
+}
+h2 {
+	color: #757575; 
+    text-align: center;
+    height: 107px;
+	width: 442px;
+	height: 55pt;
+	width: 348pt;
+} /* make h2 look better */
+
+
+
+p {color: white; font-size: 25px;
+   background-color: #757575;
+   font-family: Stencil;
+   line-height: 30px;
+} /* color for the p so you can see it */
+
+
+ul { list-style-type: none;
+	padding: 0 ;
+	margin: 0;
+	overflow:hidden;
+	background-color:#757575
+}
+ li { float: left; 
+      font-size: 25px;
+	  font-family: Stencil;
+ 
+ }
+	
+li a { 
+	display: inline-block;
+	color: #FFF;
+	text-align:center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #09C;
+}
+button {
+	}
+#nuber1 {font-family: Stencil;
+	}
+table {background-color:rgb(51,153,255)
+}
+
+#gray {
+	color:#003;
+}

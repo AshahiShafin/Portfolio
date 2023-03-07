@@ -1,0 +1,79 @@
+<html>
+
+<head>
+
+<title>Lab 14</title>
+<link rel="icon" type="image/png" href="icon.png">
+<link rel="stylesheet" type="text/css" href="nut.css">
+
+
+
+
+</head>
+
+<body>
+<center> 
+<ul>
+  <li><a href="http://techteach.us/DD2016/SAshahi/">Ashahi Porfolio</a></li>
+  <li><a href="http://techteach.us/DD2016/SAshahi/Indexlab.html">Labs</a></li>
+  <li><a href="http://techteach.us/DD2016/SAshahi/Indexproject.html">Projects</a></li>
+  <li><a href="http://ddashahiashfin.blogspot.com/2016/">Blogs</a></li>
+  <li><a href="http://techteach.us/">TechTeach</a></li>
+</ul>
+<center>
+<h1> Lab 14 </h1>
+
+<form name="calculator">
+
+First Number: <input type="text" name="number1"> <br>
+Second Nuber: <input type="text" name="number2"> <br>
+Get Answer: <input type="text" name="total"> <br>
+
+<input type="button" value="Add" onclick="javascript:addition();">
+<input type="button" value="Subtract" onclick="javascript:subtraction();">
+<input type="button" value="Multiply" onClick="javascript:multiply();">
+<input type="button" value="Divide" onClick="javascript:division();">
+</form>
+<script language="javascript" type="text/javascript">
+
+function multiply()
+{a=Number(document.calculator.number1.value);
+b=Number(document.calculator.number2.value);
+c=a*b;
+document.calculator.total.value=c;
+}
+</script>
+
+<script language="javascript" type="text/javascript">
+function addition()
+{a=Number(document.calculator.number1.value);
+b=Number(document.calculator.number2.value);
+c=a+b;
+document.calculator.total.value=c;
+}
+
+</script>
+
+<script language="javascript" type="text/javascript">
+function subtraction()
+{a=Number(document.calculator.number1.value);
+b=Number(document.calculator.number2.value);
+c=a-b;
+document.calculator.total.value=c;
+}
+
+</script>
+
+<script language="javascript" type="text/javascript">
+function division()
+{a=Number(document.calculator.number1.value);
+b=Number(document.calculator.number2.value);
+c=a/b;
+document.calculator.total.value=c;
+}
+
+</script>
+
+</body>
+
+</html>

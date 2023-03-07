@@ -1,0 +1,92 @@
+<html>
+
+<head>
+
+<title>Lab 18</title>
+<link rel="icon" type="image/png" href="icon.png">
+<link rel="stylesheet" type="text/css" href="nut.css">
+
+
+
+
+</head>
+
+<body>
+<center> 
+<ul>
+  <li><a href="http://techteach.us/DD2016/SAshahi/">Ashahi Porfolio</a></li>
+  <li><a href="http://techteach.us/DD2016/SAshahi/Indexlab.html">Labs</a></li>
+  <li><a href="http://techteach.us/DD2016/SAshahi/Indexproject.html">Projects</a></li>
+  <li><a href="http://ddashahiashfin.blogspot.com/2016/">Blogs</a></li>
+  <li><a href="http://techteach.us/">TechTeach</a></li>
+</ul>
+<center>
+
+
+<h1> Lab 18 </h1>
+
+<h2> By: Ashahi Shafin </h2>
+
+<br />
+<p> Rulers : When typing, type if you were writing at the beginning of a sentence.
+</p>
+
+<center>
+<input id="myInput" type="text" value="Orange">
+<button onClick="checkFruit()">Check Fruit</button>
+
+  
+</div>
+<h1 id="demo"></h1>
+</div>
+ 
+
+ </center>
+
+
+<br />
+
+<script>
+ function checkFruit() {
+  var text;
+  var fruits = document.getElementById("myInput").value;
+
+  switch(fruits) {
+    case "Banana":
+      text = "Banana is good!";
+      break;
+    case "Orange":
+      text = "I like orange.";
+      break;
+    case "Apple":
+      text = "Why you like apples?";
+      break;
+	case "Avocado":
+      text = "Ew I hate avocado.";
+      break;
+	  case "Grape":
+      text = "Grape are good.";
+      break;
+	case "Lime":
+      text = "Lime and curry is the best.";
+      break;
+	case "Olive":
+      text = "Olive is good with pizza.";
+      break;
+	case "Strawberry":
+      text = "Strawberry are good, but the middile tasted bad.";
+      break;
+	case "Chili pepper":
+      text = "Chili pepper make everthing taste good.";
+      break;
+    default:
+      text = "I don't know that fruit.";
+  }
+  document.getElementById("demo").innerHTML = text;
+}
+
+
+</script>
+
+</body>
+</html>

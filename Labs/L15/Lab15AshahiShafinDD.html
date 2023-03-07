@@ -1,0 +1,100 @@
+<html>
+
+<head>
+
+<title>Lab 15</title>
+<link rel="icon" type="image/png" href="icon.png">
+<link rel="stylesheet" type="text/css" href="nut.css">
+
+
+
+
+</head>
+
+<body>
+<center> 
+<ul>
+  <li><a href="http://techteach.us/DD2016/SAshahi/">Ashahi Porfolio</a></li>
+  <li><a href="http://techteach.us/DD2016/SAshahi/Indexlab.html">Labs</a></li>
+  <li><a href="http://techteach.us/DD2016/SAshahi/Indexproject.html">Projects</a></li>
+  <li><a href="http://ddashahiashfin.blogspot.com/2016/">Blogs</a></li>
+  <li><a href="http://techteach.us/">TechTeach</a></li>
+</ul>
+<center>
+
+<h1> Lab 15 </h1>
+
+<h2> By: Ashahi Shafin </h2>
+<table>
+
+<tr>
+<th>Operator</th>
+<th>Description</th>
+<th>Example</th>
+</tr>
+
+<tr>
+<th>+</th>
+<th>Addition</th>
+<th><button onClick="sum()">A=A+B</button>
+</th>
+</tr>
+
+<tr>
+<th>-</th>
+<th>Subtraction</th>
+<th><button onClick="subtract()">A=A-B</button></th>
+</tr>
+
+<tr>
+<th>*</th>
+<th>Multipliction</th>
+<th><button onClick="multiply()">A=A*B</button></th>
+</tr>
+ 
+<tr>
+<th>/</th>
+<th>Division</th>
+<th><button onClick="divide()">A=A/B</button></th>
+</tr>
+
+
+
+<p> First inital number is <spam id ="gray">69</span>
+<br/> 
+Enter second number: <input type="text" id="b" name="b" value="2">
+</p>
+<p id="result"></p>
+
+
+<script> 
+ var a = 69;
+ var b = document.getElementById("b").value;
+
+  function sum() {
+	 a += +document.getElementById("b").value;
+	 document.getElementById("result").innerHTML = a;
+ }
+ 
+ 
+ function subtract() {
+	 a -= document.getElementById("b").value;
+	 document.getElementById("result").innerHTML = a;
+ }
+ 
+ function multiply() {
+	 a *= document.getElementById("b").value;
+	 document.getElementById("result").innerHTML = a;
+ }
+ 
+  function divide() {
+	 a /= document.getElementById("b").value;
+	 document.getElementById("result").innerHTML = a;
+ }
+ 
+
+</script>
+
+</body>
+
+</html>

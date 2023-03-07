@@ -1,0 +1,90 @@
+<html>
+
+<head>
+
+<title>Lab 17</title>
+<link rel="icon" type="image/png" href="icon.png">
+<link rel="stylesheet" type="text/css" href="nut.css">
+
+
+
+
+</head>
+
+<body>
+<center> 
+<ul>
+  <li><a href="http://techteach.us/DD2016/SAshahi/">Ashahi Porfolio</a></li>
+  <li><a href="http://techteach.us/DD2016/SAshahi/Indexlab.html">Labs</a></li>
+  <li><a href="http://techteach.us/DD2016/SAshahi/Indexproject.html">Projects</a></li>
+  <li><a href="http://ddashahiashfin.blogspot.com/2016/">Blogs</a></li>
+  <li><a href="http://techteach.us/">TechTeach</a></li>
+</ul>
+<center>
+
+
+<h1> Lab 17 </h1>
+
+<h2> By: Ashahi Shafin </h2>
+
+<br />
+
+
+<center>
+
+<div id="calcu">
+<p>
+<form name="addressform">
+   Enter your first number: <input name="first" id="txt1"><br />
+   Enter your second number: <input name="second" id="txt2"><br />
+ </form>
+   <br />
+  <button onclick="result()">Would you like to add the two numbers?</button>
+   
+</div>
+<h1 id="demo"></h1>
+</div>
+ 
+
+ </center>
+
+
+<br />
+
+<script>
+ <!-- I got help from Joseph -->
+function result() { 
+  var h;
+      if (confirm("Do you also want to replace the 1st number value with the result of the operation?") == true) { 
+      	  addReplace() = h;
+       } 
+	   
+	    else {
+      	add() = h;
+       }
+	   
+	   document.getElementById("demo").innerHTML = h;
+}
+
+
+  function addReplace() {
+	 var y = document.getElementById("txt1").value;
+     var z = document.getElementById("txt2").value;
+	 document.getElementById("txt1").value = +y + +z;
+	 document.getElementById("demo").innerHTML = document.getElementById("txt1").value;
+     
+}
+
+   function add() {
+  var y = document.getElementById("txt1").value;
+  var z = document.getElementById("txt2").value;
+  var x = +y + +z;
+  document.getElementById("demo").innerHTML = x;
+}
+
+
+
+</script>
+
+</body>
+</html>
