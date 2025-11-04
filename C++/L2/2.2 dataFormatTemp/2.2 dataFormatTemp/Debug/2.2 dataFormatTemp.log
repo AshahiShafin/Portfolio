@@ -1,0 +1,17 @@
+﻿  2.2 dataFormatTemp.cpp
+C:\Users\Ashahi\Desktop\2021 spring\3510Lab\L2\2.2 dataFormatTemp\2.2 dataFormatTemp\2.2 dataFormatTemp.cpp(34,13): warning C4477: 'scanf_s' : format string '%x' requires an argument of type 'unsigned int *', but variadic argument 1 has type 'char *'
+C:\Users\Ashahi\Desktop\2021 spring\3510Lab\L2\2.2 dataFormatTemp\2.2 dataFormatTemp\2.2 dataFormatTemp.cpp(34,13): message : consider using '%hhx' in the format string
+C:\Users\Ashahi\Desktop\2021 spring\3510Lab\L2\2.2 dataFormatTemp\2.2 dataFormatTemp\2.2 dataFormatTemp.cpp(36,5): error C2143: syntax error: missing ';' before '<template-id>'
+C:\Users\Ashahi\Desktop\2021 spring\3510Lab\L2\2.2 dataFormatTemp\2.2 dataFormatTemp\2.2 dataFormatTemp.cpp(46,13): warning C4477: 'scanf_s' : format string '%x' requires an argument of type 'unsigned int *', but variadic argument 1 has type 'unsigned char *'
+C:\Users\Ashahi\Desktop\2021 spring\3510Lab\L2\2.2 dataFormatTemp\2.2 dataFormatTemp\2.2 dataFormatTemp.cpp(46,13): message : consider using '%hhx' in the format string
+C:\Users\Ashahi\Desktop\2021 spring\3510Lab\L2\2.2 dataFormatTemp\2.2 dataFormatTemp\2.2 dataFormatTemp.cpp(48,5): error C2143: syntax error: missing ';' before '<template-id>'
+C:\Users\Ashahi\Desktop\2021 spring\3510Lab\L2\2.2 dataFormatTemp\2.2 dataFormatTemp\2.2 dataFormatTemp.cpp(59,13): warning C4477: 'scanf_s' : format string '%x' requires an argument of type 'unsigned int *', but variadic argument 1 has type 'short *'
+C:\Users\Ashahi\Desktop\2021 spring\3510Lab\L2\2.2 dataFormatTemp\2.2 dataFormatTemp\2.2 dataFormatTemp.cpp(59,13): message : consider using '%hx' in the format string
+C:\Users\Ashahi\Desktop\2021 spring\3510Lab\L2\2.2 dataFormatTemp\2.2 dataFormatTemp\2.2 dataFormatTemp.cpp(61,5): error C2143: syntax error: missing ';' before '<template-id>'
+C:\Users\Ashahi\Desktop\2021 spring\3510Lab\L2\2.2 dataFormatTemp\2.2 dataFormatTemp\2.2 dataFormatTemp.cpp(72,13): warning C4477: 'scanf_s' : format string '%x' requires an argument of type 'unsigned int *', but variadic argument 1 has type 'signed char *'
+C:\Users\Ashahi\Desktop\2021 spring\3510Lab\L2\2.2 dataFormatTemp\2.2 dataFormatTemp\2.2 dataFormatTemp.cpp(72,13): message : consider using '%hhx' in the format string
+C:\Users\Ashahi\Desktop\2021 spring\3510Lab\L2\2.2 dataFormatTemp\2.2 dataFormatTemp\2.2 dataFormatTemp.cpp(74,9): error C2143: syntax error: missing ';' before '<template-id>'
+C:\Users\Ashahi\Desktop\2021 spring\3510Lab\L2\2.2 dataFormatTemp\2.2 dataFormatTemp\2.2 dataFormatTemp.cpp(84,13): warning C4477: 'scanf_s' : format string '%x' requires an argument of type 'unsigned int *', but variadic argument 1 has type 'unsigned short *'
+C:\Users\Ashahi\Desktop\2021 spring\3510Lab\L2\2.2 dataFormatTemp\2.2 dataFormatTemp\2.2 dataFormatTemp.cpp(84,13): message : consider using '%hx' in the format string
+C:\Users\Ashahi\Desktop\2021 spring\3510Lab\L2\2.2 dataFormatTemp\2.2 dataFormatTemp\2.2 dataFormatTemp.cpp(86,9): error C2143: syntax error: missing ';' before '<template-id>'
+C:\Users\Ashahi\Desktop\2021 spring\3510Lab\L2\2.2 dataFormatTemp\2.2 dataFormatTemp\2.2 dataFormatTemp.cpp(99,9): error C2143: syntax error: missing ';' before '<template-id>'

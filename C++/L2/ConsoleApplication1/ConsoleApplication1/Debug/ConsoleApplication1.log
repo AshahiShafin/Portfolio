@@ -1,0 +1,8 @@
+﻿  ConsoleApplication1.cpp
+C:\Users\Ashahi\Desktop\2021 spring\3510Lab\L2\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(30,10): warning C4477: 'scanf_s' : format string '%x' requires an argument of type 'unsigned int *', but variadic argument 1 has type 'signed char *'
+C:\Users\Ashahi\Desktop\2021 spring\3510Lab\L2\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(30,10): message : consider using '%hhx' in the format string
+C:\Users\Ashahi\Desktop\2021 spring\3510Lab\L2\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(43,10): warning C4477: 'scanf_s' : format string '%x' requires an argument of type 'unsigned int *', but variadic argument 1 has type 'short *'
+C:\Users\Ashahi\Desktop\2021 spring\3510Lab\L2\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(43,10): message : consider using '%hx' in the format string
+C:\Users\Ashahi\Desktop\2021 spring\3510Lab\L2\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(78,10): warning C4477: 'scanf_s' : format string '%x' requires an argument of type 'unsigned int *', but variadic argument 1 has type 'unsigned short *'
+C:\Users\Ashahi\Desktop\2021 spring\3510Lab\L2\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(78,10): message : consider using '%hx' in the format string
+C:\Users\Ashahi\Desktop\2021 spring\3510Lab\L2\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(8): fatal error C1075: '{': no matching token found
