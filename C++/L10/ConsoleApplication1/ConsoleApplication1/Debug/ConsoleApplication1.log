@@ -1,4 +1,0 @@
-﻿  StackApp.cpp
-c:\users\ashahi\desktop\2021 spring\3510lab\l10\consoleapplication1\consoleapplication1\stackapp.cpp(32): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
-  ConsoleApplication1.vcxproj -> C:\Users\Ashahi\Desktop\2021 spring\3510Lab\L10\ConsoleApplication1\Debug\ConsoleApplication1.exe
-  ConsoleApplication1.vcxproj -> C:\Users\Ashahi\Desktop\2021 spring\3510Lab\L10\ConsoleApplication1\Debug\ConsoleApplication1.pdb (Full PDB)
