@@ -1,0 +1,4 @@
+﻿  addressingModesTemp.cpp
+c:\users\ashahi\desktop\2021 spring\3510lab\l5\consoleapplication1\consoleapplication1\addressingmodestemp.cpp(24): warning C4838: conversion from 'unsigned int' to 'int' requires a narrowing conversion
+  ConsoleApplication1.vcxproj -> C:\Users\Ashahi\Desktop\2021 spring\3510Lab\L5\ConsoleApplication1\Debug\ConsoleApplication1.exe
+  ConsoleApplication1.vcxproj -> C:\Users\Ashahi\Desktop\2021 spring\3510Lab\L5\ConsoleApplication1\Debug\ConsoleApplication1.pdb (Full PDB)
